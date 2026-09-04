@@ -203,3 +203,28 @@ With all metrics and visualizations successfully configured, the dashboard was o
 ![Final Dashboard Layout](images/36-final-dashboard.png)
 
 To provide an executive summary of the findings, the dashboard was exported as a static PDF report. The exported report confirms exactly 2,000 total web requests, 1,168 successful responses, 376 client errors, and 376 server errors[cite: 1]. The dashboard visualizations successfully tracked Top Requested URIs, Top Users by IP Address, and Web Traffic by Client IP Addresses[cite: 1].
+
+---
+
+## 📑 Executive Summary & Artifacts
+
+With all metrics and visualizations successfully configured, the dashboard was organized, stylized in Dark Theme, and saved. The interface provides real-time oversight of critical web infrastructure health. To provide an executive summary of the findings for stakeholders, the dashboard was exported as a static PDF report. 
+
+The finalized report confirms exactly 2,000 total web requests, 1,168 successful responses, 376 client errors, and 376 server errors[cite: 1]. The visualizations successfully track Top Requested URIs, Top Users by IP Address, and geographic Web Traffic by Client IP Addresses[cite: 1].
+
+*   📄 **View the full exported report here:** [Dhananjay_splunk_dashboard_for_web_traffic.pdf](docs/Dhananjay_splunk_dashboard_for_web_traffic.pdf) *(Note: Ensure this PDF is uploaded to the root of your GitHub repository so the link resolves correctly).*
+
+---
+
+## 🎯 Conclusion & Security Impact
+
+Establishing a highly tuned SIEM dashboard is a foundational capability for Blue Team operations and SOC analysts. A properly configured Splunk environment allows security teams to:
+*   **Centralize Log Management:** Aggregate disparate web server logs into a single, rapidly searchable repository.
+*   **Proactive Threat Hunting:** Query massive datasets to identify Indicators of Compromise (IoCs), such as high-frequency HTTP 4xx errors indicating directory brute-forcing, or abnormal geographic traffic spikes.
+*   **Accelerated Incident Response:** Reduce the Mean Time to Detect (MTTD) and Mean Time to Respond (MTTR) by translating raw text logs into immediate visual intelligence.
+
+---
+
+## ⚖️ Ethical Guidelines & Disclaimer
+
+This log analysis and SIEM configuration lab was performed within a private, authorized environment strictly for educational and defensive cybersecurity training purposes. The data utilized consists of simulated web traffic logs designed specifically for learning SPL syntax, data ingestion, and dashboard construction.
