@@ -1,6 +1,6 @@
-# 📈 Cybersecurity: Splunk SIEM Apache Log Analysis & Dashboarding
+# Cybersecurity: Splunk SIEM Apache Log Analysis & Dashboarding
 
-## 📖 Table of Contents
+## Table of Contents
 - [Introduction to Splunk Enterprise (SIEM)](#-introduction-to-splunk-enterprise-siem)
 - [Project Overview](#-project-overview)
 - [Objective](#-objective)
@@ -13,16 +13,16 @@
 
 ---
 
-## 🛑 Introduction to Splunk Enterprise (SIEM)
+## Introduction to Splunk Enterprise (SIEM)
 **Splunk Enterprise** is an industry-leading platform utilized by Security Operations Centers (SOCs) for searching, analyzing, and visualizing machine-generated data in real-time. In the cybersecurity domain, it functions as a powerful Security Information and Event Management (SIEM) tool. Splunk ingests massive volumes of logs from networks, servers, and applications, allowing security analysts to detect anomalies, investigate breaches, and monitor the overall health and security posture of an IT infrastructure.
 
-## 📌 Project Overview
+## Project Overview
 This project documents the operational log analysis and visualization phase within a locally hosted Splunk Enterprise instance. It details the workflow of ingesting JSON-formatted Apache web server logs, configuring interactive input controls, and constructing advanced Search Processing Language (SPL) queries. The culmination of this lab is a fully dynamic executive dashboard designed to monitor web traffic, HTTP status codes, and the geographic origin of incoming requests.
 
-## 🎯 Objective
+## Objective
 To successfully ingest raw web server logs into a functional SIEM environment and translate that data into actionable security intelligence. By crafting precise SPL queries and mapping them to visual panels, this project establishes a baseline SOC dashboard for real-time traffic monitoring and threat hunting.
 
-## 🛠️ System Specifications
+## System Specifications
 *   **Operating System Environment:** Windows / Windows Server Architecture
 *   **Software Version:** Splunk Enterprise 10.4.2 (64-bit)
 *   **Ingestion Source:** Local JSON Log File (`apache_logs.json`)
@@ -195,7 +195,7 @@ The rendered map provides immediate visual intelligence regarding the global ori
 
 ---
 
-## 📑 Final Report Generation
+## Final Report Generation
 
 With all metrics and visualizations successfully configured, the dashboard was organized, stylized in Dark Theme, and saved. The interface provides real-time oversight of critical web infrastructure health.
 <br>
@@ -206,17 +206,17 @@ To provide an executive summary of the findings, the dashboard was exported as a
 
 ---
 
-## 📑 Executive Summary & Artifacts
+## Executive Summary & Artifacts
 
 With all metrics and visualizations successfully configured, the dashboard was organized, stylized in Dark Theme, and saved. The interface provides real-time oversight of critical web infrastructure health. To provide an executive summary of the findings for stakeholders, the dashboard was exported as a static PDF report. 
 
 The finalized report confirms exactly 2,000 total web requests, 1,168 successful responses, 376 client errors, and 376 server errors[cite: 1]. The visualizations successfully track Top Requested URIs, Top Users by IP Address, and geographic Web Traffic by Client IP Addresses[cite: 1].
 
-*   📄 **View the full exported report here:** [Dhananjay_splunk_dashboard_for_web_traffic.pdf](docs/Dhananjay_splunk_dashboard_for_web_traffic.pdf) *(Note: Ensure this PDF is uploaded to the root of your GitHub repository so the link resolves correctly).*
+*   **View the full exported report here:** [Dhananjay_splunk_dashboard_for_web_traffic.pdf](docs/Dhananjay_splunk_dashboard_for_web_traffic.pdf) 
 
 ---
 
-## 🎯 Conclusion & Security Impact
+## Conclusion & Security Impact
 
 Establishing a highly tuned SIEM dashboard is a foundational capability for Blue Team operations and SOC analysts. A properly configured Splunk environment allows security teams to:
 *   **Centralize Log Management:** Aggregate disparate web server logs into a single, rapidly searchable repository.
@@ -225,6 +225,6 @@ Establishing a highly tuned SIEM dashboard is a foundational capability for Blue
 
 ---
 
-## ⚖️ Ethical Guidelines & Disclaimer
+## Ethical Guidelines & Disclaimer
 
 This log analysis and SIEM configuration lab was performed within a private, authorized environment strictly for educational and defensive cybersecurity training purposes. The data utilized consists of simulated web traffic logs designed specifically for learning SPL syntax, data ingestion, and dashboard construction.
